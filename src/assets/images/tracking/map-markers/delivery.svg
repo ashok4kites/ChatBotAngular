@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="27px" viewBox="0 0 20 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pickup</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pickup">
+            <g id="Rectangle-8" fill="#00B0EB">
+                <g id="path-1-link">
+                    <rect id="path-1" x="0" y="0" width="20" height="20" rx="9.5"></rect>
+                </g>
+            </g>
+            <polygon id="Triangle" fill="#00B0EB" fill-rule="nonzero" transform="translate(10.000000, 22.000000) rotate(180.000000) translate(-10.000000, -22.000000) " points="10 17 15 27 5 27"></polygon>
+            <g id="P" transform="translate(7.000000, 5.000000)" fill="#FFFFFF" font-family="WorkSans-Bold, Work Sans" font-size="10" font-weight="bold">
+                <text>
+                    <tspan x="0.16" y="9">D</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

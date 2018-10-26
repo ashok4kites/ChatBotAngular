@@ -1,0 +1,26 @@
+<form [formGroup]="loginForm" (ngSubmit)="onLoginSubmit()">
+  <auth-form>
+    <div role="title">{{ 'auth.texts.login.title' | translate }}</div>
+    <div role="form">
+      <mat-form-field class="float-input">
+        <input matInput placeholder="{{ 'auth.labels.generic.email' | translate }}" formControlName="email">
+        <mat-error *ngIf="validateEmail">
+          {{ 'auth.errors.invalid_email' | translate }}
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="float-input">
+        <input matInput type="password" placeholder="{{ 'auth.labels.generic.password' | translate }}" formControlName="password">
+        <mat-error *ngIf="loginForm.controls['password'].hasError('required')">
+          {{ 'auth.errors.invalid_password' | translate }}
+        </mat-error>
+      </mat-form-field>
+
+      <mat-checkbox formControlName="remember">{{ 'auth.actions.login.remember' | translate }}</mat-checkbox>
+    </div>
+    <div role="actions">
+      <button type="submit" mat-raised-button color="primary">{{ 'auth.actions.login.submit' | translate }}</button>
+      <a class="login-b-link">{{ 'auth.actions.login.help' | translate }}</a>
+    </div>
+  </auth-form>
+</form>

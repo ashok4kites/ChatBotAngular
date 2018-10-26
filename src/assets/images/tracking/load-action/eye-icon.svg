@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>eye-19</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tracking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="03_Tracking-Details_02" transform="translate(-1268.000000, -213.000000)" stroke="#67686B" stroke-width="1.5">
+            <g id="Group-4" transform="translate(500.000000, 196.000000)">
+                <g id="Group-28">
+                    <g id="Group-6" transform="translate(10.000000, 10.000000)">
+                        <g id="style">
+                            <g id="Group-10">
+                                <g id="Group-17" transform="translate(678.000000, 0.000000)">
+                                    <g id="eye-19" transform="translate(81.000000, 8.000000)">
+                                        <path d="M0.380952381,5 C0.380952381,5 3.42857143,0.384615385 8,0.384615385 C12.5714286,0.384615385 15.6190476,5 15.6190476,5 C15.6190476,5 12.5714286,9.61538462 8,9.61538462 C3.42857143,9.61538462 0.380952381,5 0.380952381,5 Z" id="Shape"></path>
+                                        <ellipse id="Oval" cx="8" cy="3.46153846" rx="3.04761905" ry="3.07692308"></ellipse>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

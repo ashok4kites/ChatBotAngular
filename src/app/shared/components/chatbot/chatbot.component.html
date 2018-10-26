@@ -1,0 +1,19 @@
+<div class="chatroom" >
+  <nav class="navbar sidebar" >
+    <ul class="list-unstyled components sidebar-list" >
+      <li >
+        <div class="sidebar-fk-logo"><img src={logo} class="navbar-fk" /> </div>
+        <div class="active-sidebar-icon"> <img src={chatlogo} class="navbar-logo" /> </div>
+        <img src={settings_logo} class="navbar-settings-logo" />
+      </li>
+    <p class="athenaText" ></p> </ul>
+  </nav>
+  <ul class="chats" #chats>
+    <message *ngFor="let item of messages" [data]="item"></message>
+  </ul>
+  <form class="input" (ngSubmit)="onSubmitMessage($event)">
+    <input type="text" [(ngModel)]="inputMessage" [ngModelOptions]="{standalone: true}" class="form-control" placeholder="Type something" />
+    <input type="submit" />
+    <div name={this.userName} size="45" color="#D2F1FB" fgColor="#1CADE4" class="user-initial-icon"></div>
+  </form>
+</div>

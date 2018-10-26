@@ -1,0 +1,241 @@
+{
+  "generic": {
+    "back": "Back",
+    "save": "Save",
+    "yes":"Yes",
+    "cancel": "Cancel",
+    "reset_all": "Reset All",
+    "save_as": "Save As",
+    "filter": "Filter",
+    "search": "Search",
+    "delete": "Delete",
+    "no_thanks": "No thanks",
+    "sort_by": "Sort By",
+    "asc": "Ascending",
+    "desc": "Descending",
+    "copyright": "Fourkites, Inc.",
+    "no_results":"No Results",
+    "results":"Result(s)",
+    "week_days":{
+      "sunday":"Sunday",
+      "monday":"Monday",
+      "tuesday":"Tuesday",
+      "wednesday":"Wednesday",
+      "thursday":"Thursday",
+      "friday":"Friday",
+      "saturday":"Saturday"
+    },
+    "welcome_superadmin": "Welcome Super Admins",
+    "select_context": "To get started, please select a company context."
+  },
+  "auth": {
+    "errors": {
+      "invalid_email": "Please enter a valid Email",
+      "invalid_password": "Please enter a valid Password",
+      "invalid_new_password": "Please enter a valid New password",
+      "invalid_confirm_password": "Please enter a valid Confirm password",
+      "invalid_code": "Please enter a valid code"
+    },
+    "actions": {
+      "login": {
+        "remember": "Remember me",
+        "submit": "Login",
+        "help": "NEED HELP?"
+      },
+      "forgot_password": {
+        "send_password": "SEND PASSWORD"
+      },
+      "reset_password": {
+        "reset_btn_password": "RESET PASSWORD"
+      },
+      "two_factor": {
+        "verify_code": "VERIFY CODE",
+        "didnt_recive": "Didn’t recieve it?",
+        "resend": "RESEND"
+      }
+    },
+    "texts": {
+      "login": {
+        "title": "Welcome Back"
+      },
+      "forgot_password": {
+        "title": "Password Recovery"
+      },
+      "reset_password": {
+        "title": "Reset Password"
+      },
+      "two_factor": {
+        "title": "Two Factor Authentication"
+      }
+    },
+    "labels": {
+      "generic": {
+        "email": "Email address",
+        "email_enter": "Enter Email",
+        "password": "Password",
+        "password_new": "New Password",
+        "password_confirm": "Confirm password",
+        "digit_code": "Enter the 7 digit code you recieved",
+        "security_code_email": "Security Code via Email",
+        "security_code_app": "Security Code via Phone"
+      }
+    }
+  },
+  "loads": {
+    "labels":{
+      "load_number":"load number",
+      "from":"from",
+      "to":"to",
+      "carrier":"carrier",
+      "shipper":"shipper",
+      "3pl":"3pl",
+      "stops":"stops",
+      "status":"status",
+      "eta":"eta",
+      "completed_at": "Completed At",
+      "delivered_time": "delivered time",
+      "add-files":"add files",
+      "delivery_stops_count": "delivery stops",
+      "truck_number": "truck #",
+      "driver_number": "driver #",
+      "trailer_number": "trailer #",
+      "vessel_number": "vessel #",
+      "container_number": "container #",
+      "rail_number": "rail #",
+      "reporting": "Include in Reporting"
+    },
+    "eta": {
+      "very_late": "very late",
+      "late": "late",
+      "early": "early arrival",
+      "on_time": "on time",
+      "autoEtaTriggeredTrue": "Location not recieved in {{value}}",
+      "autoEtaTriggeredFalse": "ETA calculated {{value}} ago",
+      "no_eta_available": "Not Available"
+    },
+    "haul_params": {
+      "travel_ban_warnings":"Travel Ban Impacted",
+      "brokered_load":"Brokered",
+      "inbound_load":"Inbound",
+      "outbound_load":"Outbound",
+      "non-brokered_load": "Non Brokered",
+      "short_haul": "Short Haul",
+      "long_haul": "Long Haul"
+    },
+    "title": "Tracking",
+    "status": {
+      "at_pickup": "At Pickup",
+      "at_terminal": "At Terminal",
+      "at_consignee": "At Consignee",
+      "departed_pickup": "Departed Pickup",
+      "delivered": "Delivered"
+    }
+  },
+  "error_page": {
+    "400":{
+      "code" : "400",
+      "title" : "Error: 400 Bad Request",
+      "message" : "An error occurred and your request couldn’t be completed"
+    },
+    "401":{
+      "code" : "401",
+      "title" : "Error: 401 Unauthorized",
+      "message" : "Sorry, access to this resource on the server is denied"
+    },
+    "403":{
+      "code" : "403",
+      "title" : "Error: 403 Forbidden",
+      "message" : "Sorry, access to this resource on the server is denied"
+    },
+    "404":{
+      "code" : "404",
+      "title" : "Error: 404 Page Not Found",
+      "message" : "Sorry, the page you're looking for cannot be accessed."
+    },
+    "500":{
+      "code" : "500",
+      "title" : "ERROR: 500 Unexpected Error",
+      "message" : "An error ocurred and your request couldn’t be completed."
+    },
+    "unknown":{
+        "code" : "UNKNOWN",
+        "title" : "Error: Unknown",
+        "message" : "An unknown error occurred and your request couldn’t be completed"
+    },
+    "0":{
+      "title": "Welcome to FourKites",
+      "message": "Uh oh! No loads to show.",
+      "redirect" : "Looks like you haven’t selected a company context."
+    },
+    "redirect":{
+      "1":"Either check the URL, ",
+      "2":"go home",
+      "3":"or feel free to",
+      "4":"report this issue."
+    }
+  },
+  "footer": {
+    "address": {
+      "a1":"1 N. Dearborn St., Suite 810 Chicago, IL 60602",
+      "a2":"1-888-466-6958 hello@FourKites.com"
+    },
+    "footer_menu": {
+      "blog":"Blog",
+      "contact":"Contact"
+    },
+    "privacy": {
+      "p1":"© 2018 FourKites, Inc",
+      "p2":"Privacy Policy",
+      "p3":"Terms of Use"
+    }
+  },
+  "header": {
+    "account": {
+        "help": "Help",
+        "settings": "Settings",
+        "sign_out": "Sign Out"
+    },
+      "user": {
+        "address_manager": "Gerenciador de endereço",
+        "address_manager_beta": "Gerenciador de endereço (BETA)",
+        "admin": "Administrador",
+        "appless_management": "Gerenciamento sem aplicativo",
+        "benchmarking":"Análise comparativa",
+        "blacklist_phones": "Telefones sem aplicativo em lista negra",
+        "carrier_scorecard": "Tabela de desempenho da transportadora",
+        "companies": "Empresas",
+        "create_load": "Criar carga",
+        "customer_scorecard": "Tabela de desempenho do cliente",
+        "customers": "Clientes",
+        "dashboard": "Painel",
+        "fourkites_analytics": "Perspectivas",
+        "get_direct_assignment": "Get Direct Assignment",
+        "health_dashboard": "Painel de saúde",
+        "home": "Início",
+        "load_validation_report": "Relatório de validação da carga",
+        "loads": "Cargas",
+        "location_providers": "Provedores de localização",
+        "manage_subscription": "Manage Subscriptions",
+        "mass_update": "Atualização em massa",
+        "matches": "Correspondências",
+        "network": "Rede",
+        "notification_rules": "Regras de notificação",
+        "on_time_performance": "Desempenho no prazo",
+        "performance_analytics": "Análise de desempenho",
+        "ping_test": "Teste de ping",
+        "ports": "Ports",
+        "reports": "Relatórios",
+        "search_by_reference_number": "Pesquisar por número de referência",
+        "simulate_location": "Simular local",
+        "temperature_providers": "Provedores de temperatura",
+        "temperature_tracking": "Rastreamento de temperatura",
+        "tools": "Ferramentas",
+        "tracking": "Rastreamento",
+        "tracking_consistency":"Consistência de rastreamento",
+        "users": "Usuários"
+    }
+  },
+  "maps": {
+    "vehicle_delayed_by": "Truck stopped here for"
+  }
+}

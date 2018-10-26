@@ -1,0 +1,42 @@
+@import '~frontend-client-shared-module/styles/mixins';
+
+// @mixin cursorP {
+//   cursor: pointer;
+// }
+//
+// @mixin margin($values...) {
+//   @each $var in $values {
+//     margin: #{$var};
+//   }
+// }
+//
+// @mixin padding($values...) {
+//   @each $var in $values {
+//     padding: #{$var};
+//   }
+// }
+//
+//
+// .height100 {
+//   height: 100%;
+// }
+//
+// .margin-left-15 {
+//   @include margin(0 0 0 -15px);
+// }
+//
+// .margin-top-10 {
+//   @include margin(10px 0 0 0);
+// }
+//
+// .padding-top-10 {
+//   @include padding(10px 0 0 0);
+// }
+//
+// .padding-left-30 {
+//   @include padding(0 0 0 30px);
+// }
+//
+// .padding-left-15 {
+//   @include padding(0 0 0 15px);
+// }

@@ -1,0 +1,52 @@
+@import "src/scss/variables.scss";
+@import "src/scss/mixins.scss";
+
+#login-page-wrapper {
+  .login-content-wrapper {
+    background: url("/assets/images/login-back.jpg") no-repeat center -150px;
+    height: 100vh;
+
+    .log-content {
+      left: 50%;
+      position: absolute;
+      top: 360px;
+      transform: translate(-50%, -50%);
+
+
+      .lg-title {
+        font-family: $font-poppins;
+        font-size: 26px;
+        margin: 5px 0 20px;
+        position: relative;
+        color: $brand-main-secondary-colors;
+        font-weight: 300;
+        text-align: center;
+      }
+
+      .lg-form{
+        width: 320px;
+        margin-left: 20px;
+          .lg-form-content{
+            height: 190px;
+          }
+      }
+      .login-b-link {
+        width: 100%;
+        position: relative;
+        color: $brand-main-secondary-colors;
+        margin: 20px auto;
+        padding: 0;
+        text-decoration: none;
+        float: left;
+        cursor: pointer;
+        text-align: center;
+      }
+
+    }
+  }
+}
+.two-factor-content{
+  .lg-form-content{
+    height: 120px !important;
+  }
+}

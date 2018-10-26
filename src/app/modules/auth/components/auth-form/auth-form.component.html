@@ -1,0 +1,25 @@
+<div id="login-page-wrapper" class="login-alternate-theme {{customClass}}">
+  <div class="login-content-wrapper">
+    <div class="login-content-bg"></div>
+    <div class="clearfix">
+      <div class="log-content">
+
+        <div class="lg-title">
+          <ng-content select="[role=title]"></ng-content>
+        </div>
+
+        <div class="lg-form">
+          <div class="lg-form-content">
+            <ng-content select="[role=form]"></ng-content>
+          </div>
+
+          <div class="clearfix">
+            <ng-content select="[role=actions]"></ng-content>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<auth-footer></auth-footer>

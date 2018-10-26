@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Ping/delayed</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="En-Route-ETA-04" transform="translate(-768.000000, -907.000000)">
+            <g id="LoadOpen" transform="translate(411.000000, 182.000000)">
+                <g id="Markers-Route" transform="translate(53.000000, 378.000000)">
+                    <g id="pings" transform="translate(186.000000, 42.000000)">
+                        <g id="Ping/delayed" transform="translate(118.000000, 305.000000)">
+                            <path d="M10,1.29032258 C14.7847984,1.29032258 18.7096774,5.16350806 18.7096774,10 C18.7096774,14.7847984 14.8364919,18.7096774 10,18.7096774 C5.21520161,18.7096774 1.29032258,14.8364919 1.29032258,10 C1.29032258,5.21520161 5.16350806,1.29032258 10,1.29032258 Z" id="Path" fill="#642822" fill-rule="nonzero"></path>
+                            <path d="M10,0 C4.4771371,0 0,4.4771371 0,10 C0,15.5228629 4.4771371,20 10,20 C15.5228629,20 20,15.5228629 20,10 C20,4.4771371 15.5228629,0 10,0 Z M10,5.16129032 C12.6741532,5.16129032 14.8387097,7.32540323 14.8387097,10 C14.8387097,12.6741532 12.6745968,14.8387097 10,14.8387097 C7.32584677,14.8387097 5.16129032,12.6745968 5.16129032,10 C5.16129032,7.32584677 7.32540323,5.16129032 10,5.16129032 Z M10,3.87096774 C6.61504032,3.87096774 3.87096774,6.61504032 3.87096774,10 C3.87096774,13.3849597 6.61504032,16.1290323 10,16.1290323 C13.3849597,16.1290323 16.1290323,13.3849597 16.1290323,10 C16.1290323,6.61504032 13.3849597,3.87096774 10,3.87096774 Z" id="Shape" fill="#642822" fill-rule="nonzero"></path>
+                            <path d="M10,5 C7.23857143,5 5,7.23857143 5,10 C5,12.7614286 7.23857143,15 10,15 C12.7614286,15 15,12.7614286 15,10 C15,7.23857143 12.7614286,5 10,5 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <text id="!" font-family="Poppins-Medium, Poppins" font-size="10" font-weight="400" fill="#642822">
+                                <tspan x="8.385" y="14">!</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

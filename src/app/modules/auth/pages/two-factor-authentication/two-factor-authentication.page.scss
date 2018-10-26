@@ -1,0 +1,36 @@
+@import "src/scss/variables.scss";
+@import "src/scss/mixins.scss";
+
+.auth-sub-title{
+  position: relative;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  margin: 40px 0px;
+  text-align: center;
+}
+.auth-radio-option{
+  position: relative;
+  margin: 20px;
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.mat-radio-button{
+  color: $brand-main-secondary-colors;
+  margin-bottom: 10px;
+  .mat-radio-label-content{
+      font-weight: normal;
+  }
+}
+.two-fact-actions{
+    margin: 10px 0px;
+  .tw-btn-1{
+    width: 180px;
+    text-align: left;
+  }
+  .tw-btn-2{
+    width: 140px;
+    text-align: right;
+  }
+}

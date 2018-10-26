@@ -1,0 +1,37 @@
+<form [formGroup]="verify2faEmail" *ngIf="showVerificationForm" (ngSubmit)="verfiy2faViaEmail()">
+  <auth-form>
+    <div role="title">{{ 'auth.texts.two_factor.title' | translate }}</div>
+
+    <div role="form">
+      <mat-form-field class="float-input">
+        <input matInput placeholder="{{ 'auth.labels.generic.digit_code' | translate }}" value="" formControlName="verifyCode">
+        <mat-error *ngIf="">{{ 'auth.errors.invalid_code' | translate }}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div role="actions" class="two-fact-actions">
+      <button mat-raised-button color="primary" type="submit">{{ 'auth.actions.two_factor.verify_code' | translate }}</button>
+      <a class="login-b-link tw-btn-1">{{ 'auth.actions.two_factor.didnt_recive' | translate }}</a>
+      <a class="login-b-link tw-btn-2" (click)="sendVerificationCode()">{{ 'auth.actions.two_factor.resend' | translate }}</a>
+      <a class="login-b-link btn-back-icon" (click)="showForm=false">{{ 'generic.back' | translate }}</a>
+    </div>
+  </auth-form>
+</form>
+
+<form *ngIf="!showForm" (ngSubmit)="sendVerificationCode()">
+  <auth-form>
+    <div role="title">{{ 'auth.texts.two_factor.title' | translate }}</div>
+
+    <div role="form">
+      <mat-radio-group class="auth-radio-option">
+        <mat-radio-button value = '1' [checked]="defaultRadioCheck('email')" (change) = "saveSelectedChange('email')">{{ 'auth.labels.generic.security_code_email' | translate }}</mat-radio-button>
+        <mat-radio-button  value = '2' [checked] = "defaultRadioCheck('phone')" (change) = "saveSelectedChange('phone')">{{ 'auth.labels.generic.security_code_app' | translate }}</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div role="actions" class="two-fact-actions">
+      <button mat-raised-button color="primary" type="submit">{{ 'auth.actions.two_factor.verify_code' | translate }}</button>
+      <a class="login-b-link btn-back-icon" (click)="goBack('login')">{{ 'generic.back' | translate }}</a>
+    </div>
+  </auth-form>
+</form>

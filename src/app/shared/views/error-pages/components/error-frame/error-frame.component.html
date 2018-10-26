@@ -1,0 +1,29 @@
+<div id="error-page-wrapper" >
+  <div class="error-content-wrapper" *ngIf="error!=0">
+    <div class="error-page-title">{{ "error_page."+error+".title" | translate }}</div>
+    <div class="error-page-inner-content">
+      <img src="{{errorImage}}" alt="" />
+    </div>
+    <div class="error-page-fot-link">
+        <div class="error-des-details">{{ "error_page."+error+".message" | translate }}</div>
+        <div class="error-redirect-link" *ngIf="error!=0">
+          {{ "error_page.redirect.1" | translate }}
+          <span *ngIf="!fromDashboard"><a [href]="urlService.getRedirectURL('/dashboard/')">{{ "error_page.redirect.2" | translate }}</a></span> 
+          {{ "error_page.redirect.3" | translate }}
+          <a href="mailto:support@fourkites.com">{{ "error_page.redirect.4" | translate }}</a>
+        </div>
+        <div class="error-redirect-link" *ngIf="fromDashboard && error==0">
+          {{ "error_page."+error+".redirect" | translate }}
+        </div>
+    </div>
+  </div>
+
+<div class="no-data" *ngIf="error==0">
+    <div class="content">
+      {{'generic.welcome_superadmin' | translate}}
+    </div>
+    <div class="sub-content">
+      {{'generic.select_context' | translate}}
+    </div>
+  </div>
+</div>
