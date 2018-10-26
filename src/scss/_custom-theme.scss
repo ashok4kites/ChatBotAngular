@@ -1,0 +1,107 @@
+@import '~frontend-client-shared-module/styles/custom-theme';
+
+.login-alternate-theme {
+  $custom-theme: mat-light-theme($custom-primary, $custom-accent);
+  @include angular-material-theme($custom-theme);
+  .float-input{
+    .mat-input-element{
+      background: $white-color !important;
+      border: 1px solid $brand-main-primary-colors;
+      padding: 8px;
+    }
+    .mat-form-field-label{
+      font-family: $font-montserrat;
+      font-size: 14px;
+      color: #252525;
+      padding: 12px 8px;
+    }
+
+    .mat-input-underline{
+      background: transparent;
+    }
+    .mat-input-ripple{
+      background: transparent;
+    }
+    .mat-form-field-wrapper {
+      padding-bottom: 10px;
+    }
+  }
+  @mixin mat-fl-input {
+    .mat-form-field-label{
+      color:$brand-main-secondary-colors;
+      padding: 4px 0px;
+      font-size: 16px;
+    }
+  }
+  .mat-focused{
+    @include mat-fl-input;
+  }
+  .mat-form-field-should-float{
+    @include mat-fl-input;
+  }
+  .mat-checkbox {
+    position: relative;
+    color: $brand-main-secondary-colors;
+    margin: 10px 0px 15px 0px;
+    display: block;
+    font-size: 15px;
+
+    .mat-checkbox-label{
+      font-weight: lighter;
+    }
+    .mat-checkbox-frame {
+      border-color: $brand-main-secondary-colors;
+    }
+    .mat-checkbox-inner-container{
+      margin: auto 8px auto auto !important;
+    }
+  }
+
+  .mat-radio-label-content{
+    font-weight: lighter;
+  }
+
+  .login-b-link {
+    width: 100%;
+    position: relative;
+    color: $brand-main-secondary-colors;
+    margin: 20px auto;
+    padding: 0;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .btn-back-icon{
+    padding-left: 15px;
+    &::before{
+      font-family: 'Font Awesome 5 Free';
+      content: "\f053";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 0px;
+      font-size: 15px;
+      margin-left: -20px;
+      font-weight: 700;
+    }
+  }
+}
+
+.mat-checkbox {
+  .mat-checkbox-inner-container {
+    width: 15px;
+    height: 15px;
+
+    .mat-checkbox-frame {
+      border-width: 1px;
+      border-color: #C6CBD4;
+    }
+  }
+
+  .mat-checkbox-label {
+    font-weight: lighter;
+  }
+}

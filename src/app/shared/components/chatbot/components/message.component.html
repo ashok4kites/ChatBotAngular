@@ -1,0 +1,13 @@
+<li [ngClass]="getMessageClass()">
+  <div *ngIf="data.sent_by == 'bot'">
+    <img src = {{chat_icon}} class="bot-icon" />
+  </div>
+  <ngx-avatar *ngIf="data.sent_by == 'user'" name="data.name" size="40" color="#D2F1FB" fgColor="#1CADE4" class="user-avatar"></ngx-avatar>
+  <div *ngIf="data.status == 'loading'">
+    <img src = {{loading}} class = "typing-animation" />
+  </div>
+  <div class="message-content" > {{data.message}}
+  </div>
+  <div class="time"> {{getTime(data.timestamp)}}
+  </div>
+</li>

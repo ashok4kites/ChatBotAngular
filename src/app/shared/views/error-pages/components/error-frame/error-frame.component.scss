@@ -1,0 +1,47 @@
+@import "src/scss/variables.scss";
+@import "src/scss/mixins.scss";
+
+#error-page-wrapper {
+  height: calc(100vh - 90px);
+  font-family: $font-poppins;
+  font-size: 20px;
+  overflow: hidden;
+  background-color: $grey-accent-type-3;
+  .error-content-wrapper {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .error-page-title {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 25px;
+  }
+  
+  .error-des-details {
+    padding-top: 25px;
+    line-height: 30px;
+  }
+
+  .no-data {
+    font-family: $font-poppins;
+    font-size: 28px;
+    color: $brand-main-secondary-colors;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .content {
+      margin-left: -165px;
+    }
+    .sub-content {
+      font-size: 18px;
+      text-align: center;
+      margin: 6px 0 0 -216px;
+      font-weight: 300;
+    }
+  }  
+  
+}
